@@ -16,4 +16,4 @@ public class Velo{
 	public void avertir(){
 		System.out.println("Je peux avertir grâce à la sonette du vélo.");
 	}
-}
+} 

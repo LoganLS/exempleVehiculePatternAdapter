@@ -5,4 +5,4 @@ public interface Vehicule {
 	public void freiner();
 	public void tournerLeVolant();
 	public void klaxonner();
-}
+} 
