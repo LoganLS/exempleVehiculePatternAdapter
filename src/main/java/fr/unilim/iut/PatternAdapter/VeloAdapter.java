@@ -24,4 +24,4 @@ public class VeloAdapter implements Vehicule{
 	public void klaxonner() {
 		this.velo.avertir();
 	}
-} 
+}

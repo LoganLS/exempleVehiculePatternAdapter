@@ -25,5 +25,5 @@ public class Main {
 		bus.klaxonner();
 		velo.klaxonner();
 		
-	} 
+	}
 }

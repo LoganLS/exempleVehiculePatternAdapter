@@ -17,6 +17,6 @@ public class Bus implements Vehicule{
 
 	public void klaxonner() {
 		System.out.println("Je klaxonne avec le bus");
-	} 
+	}
 
 }
