@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args){
 		Vehicule voiture = new Voiture();
 		Vehicule bus = new Bus();
-		Vehicule velo = new VeloAdapter(new Velo()); // On transforme le vélo en un véhicule
+		Vehicule velo = new VeloAdapter(new Velo());
 		
 		voiture.accelerer();
 		bus.accelerer();
@@ -17,8 +17,8 @@ public class Main {
 		System.out.println("\n");
 		
 		voiture.tournerLeVolant();
-		bus.klaxonner();
-		velo.klaxonner();
+		bus.tournerLeVolant();
+		velo.tournerLeVolant();
 		System.out.println("\n");
 		
 		voiture.klaxonner();

@@ -6,7 +6,7 @@ public class Velo{
 	}
 	
 	public void freiner(){
-		System.out.println("Je peux freine grâce au système du guidon.");
+		System.out.println("Je peux freiner grâce au système du guidon.");
 	}
 	
 	public void tournerLeGuidon(){
@@ -14,6 +14,6 @@ public class Velo{
 	}
 	
 	public void avertir(){
-		System.out.println("Je peux avertir grâce à la sonette du vélo.");
+		System.out.println("Je peux avertir grâce à la sonnette du vélo.");
 	}
 }
